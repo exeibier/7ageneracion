@@ -1,0 +1,12 @@
+*{
+    font-family: arial;
+    font-style: italic;
+}
+
+header {
+    background-color: aqua;
+}
+
+nav {
+    background-color: violet;
+}
