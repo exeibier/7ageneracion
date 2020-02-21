@@ -1,12 +1,65 @@
 *{
-    font-family: arial;
-    font-style: italic;
+    font-family:arial;
+    font-style:italic;
+    box-sizing:border-box;
 }
 
-header {
-    background-color: aqua;
+body{
+    margin:0;
+    padding:0;
 }
 
-nav {
-    background-color: violet;
+.text-underline{
+    text-decoration:underline;
 }
+
+#first-article{
+    text-transform: uppercase;
+}
+
+header{
+    background-color:cyan;
+    width: 90%;
+    margin: 0 5%;
+    height: 50px;
+}
+
+nav{
+    background-color:magenta;
+    width:90%;
+    margin:0 auto;
+}
+
+section{
+    background:slateblue;
+    width:60%;
+}
+
+article {
+    background-color: palevioletred;
+    margin: 30px;
+    padding: 30px;
+}
+
+aside{
+    background:salmon;
+    width:calc(40% - 25px);
+    margin-left:20px;
+
+}
+footer {
+    background-color: blue;
+    width: 90%;
+    margin:0 5%;
+    height: 50px;
+}
+
+
+.flex-wrapper{
+    width:90%;
+    margin:10px auto;
+    padding:10px;
+    display: flex;
+    justify-content:space-between;
+}
+
