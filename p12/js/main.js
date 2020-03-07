@@ -51,16 +51,9 @@ console.log(vocals.length);*/
 
 var word = prompt('ingresa tu palabra aquí');
 
-var first = word.substring(0,2);
-var second = word.substr (-2,word.length);
-
-if (word.length < 5){
-  console.error('Tu palabra es muy corta');
-  
-} else {
-  console.log(first + second);
-
-};
+var first = word.substring(0,word.length -2);
+var second =  word.substring(word.length); 
+console.log(second);
 
 //pedir al usuario nombre y edad, y mostar un mensaje que diga "hola, soy {nombre} y tengo {edad} años"
 
