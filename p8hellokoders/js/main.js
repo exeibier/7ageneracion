@@ -12,10 +12,10 @@ console.error("error koders!!!")
 5.- imprimir la multiplicacion.
 6.- imprimir la division.*/
 
-var x = 5
-var y = 3
+var x = 5;
+var y = 3;
 
 console.log ('la suma de las variables es', x + y);
 console.log ('la resta de las variables es', x - y);
 console.log ('la multiplicacion de las variables es', x * y);
-console.log ('la resta de las variables es', x / y);
+console.log ('la division de las variables es', x / y);
